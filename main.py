@@ -15,3 +15,4 @@ class NewSpider(scrapy.Spider):
         if next_page:
             yield scrapy.Request(response.urljoin(next_page), callback=self.parse)
 
+#wengkuen
